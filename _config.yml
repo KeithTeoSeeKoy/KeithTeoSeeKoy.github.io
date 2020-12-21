@@ -1,5 +1,5 @@
 title: Keith Teo See Koy # your name (or website title) here
-logo: <img src="/images/KeithTeo.jpg" style="width:500px;height:600px> # "/images/KeithTeo.jpg" # your photo (or logo) here
+logo: <img src="/images/KeithTeo.jpg" style="width:500px;height:600px;"> # "/images/KeithTeo.jpg" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a Data Analyst 
   <br><br>
