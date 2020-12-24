@@ -7,6 +7,7 @@ This is the presentation I've done up to demonstrate how Data Science is being e
 
 ---
 [Autonomous Vehicle Case Study](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/pdf/Autonomous%20Vehicle%20Case%20Study.pdf)
+
 ---
 <img src="images/AutonomousVeh.JPG?raw=true" width="300"/> <img src="images/AutoVehContent.JPG?raw=true" width="307"/>
 <img src="images/AutoVehBackgnd.JPG?raw=true" width="300"/> <img src="images/AutoVehWorkflow.JPG?raw=true" width="300"/>
