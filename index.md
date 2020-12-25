@@ -1,6 +1,6 @@
 ## Portfolio
 
-Listed here are some of my work. 
+Listed here are some of my work. If you have an interest in knowing more about my project work, feel free to drop me an email at keithteo.prop@gmail.com. 
 
 ### Basic of Data Science Presentation
 This is the presentation I've done up to demonstrate how Data Science is being employed in Autonomous Vehicle. Below are some of the slides. What was not included in the slides are my presentation on convolutional neural networks (CNN) and recurrent neural networks (RNN) employed in Autonomous Vehicle to aid in image feature extraction and adding the temporal factor to predict the possibilities of object collision.  
