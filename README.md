@@ -4,29 +4,24 @@ Listed here are some of my work. If you have an interest in knowing more about m
 
 <a href="https://www.linkedin.com/in/keith-teo-569955202/">View My LinkedIn Profile</a>
 
-### Basic of Data Science Presentation
-This is the presentation I've done up to demonstrate how Data Science is being employed in Autonomous Vehicle. Below are some of the slides. What was not included in the slides are my presentation on convolutional neural networks (CNN) and recurrent neural networks (RNN) employed in Autonomous Vehicle to aid in image feature extraction and adding the temporal factor to predict the possibilities of object collision.  
+# Capstone-Project-3---Online-Retail-Shop-Analysis
+This analysis looks into Customer Segmentation and Market Basket Analysis.
+
+This is an individual project done over 11 days. I've downloaded the Online Retail dataset from Kaggle. This time round I have used python to do up majority part of the analysis. This includes Recency, Frequency, Monetary (RFM) calculation, segmenting the customers based on the RF Grid and preparing the respective tables to be loaded into Power BI for visualisation. With the customers segment into 10 different groups, in accordance with the RF Grid, I've done up a rough marketing strategies (see images below). I must put a disclaimer that I'm not a marketing guy, so please pardon me if the strategy does not hold ground. But I'm sure the marketing people will see value with the customer segmentation work done here.
+
+As an alternative to RFM, I've also done up the customer segmentation using kmeans (unsupervised clustering algorithm). This is done up to draw a comparison between the 2 techniques (RFM being statistical modelling vs kmeans being machine learning modelling).
+
+To wrap up the entire analysis, I've done up a Market Basket Analysis using Apriori and Association Rule Mining. This is needed so that other than understanding our customers via Customer Segmentation, we also need to understand our items popularity, along with the customer buying pattern. The analysis will yield frequent itemsets and association rule which will be useful for cross selling and up selling of our items.
 
 ---
-[Autonomous Vehicle Case Study](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/pdf/Autonomous%20Vehicle%20Case%20Study.pdf)
-
+##### <<The file size related to this analysis is rather huge. Hence, I would not be able to make the analysis files available. However, should you be interested, you are still welcome to approach me.>>
 ---
-<img src="images/AutonomousVeh.JPG?raw=true" width="300"/> <img src="images/AutoVehContent.JPG?raw=true" width="307"/>
-<img src="images/AutoVehBackgnd.JPG?raw=true" width="300"/> <img src="images/AutoVehWorkflow.JPG?raw=true" width="300"/>
-<img src="images/AutoVehUseCases.JPG?raw=true" width="300"/>
-
-### Capstone Project 1 - HR Attrition Analysis
-This is an individual project done over 5 days. I've downloaded the IBM Watson dataset from Kaggle, clean it up and did some transformation via Power Query. I've found that the dataset has quite a worrying 20% employee attrition. This will impact the company talent retention as most of the employee who left are the younger ones. On top of that, the company has already been giving the employees quite an attractive salary with a good salary hike. The root of the cause from the analysis points toward the Overtime factor. About half of the employees who work Overtime left the company. Therefore, the company has to take a closer look at this situation.
-
-I also did a Logistic Regression prediction model using Excel Solver. I've used a 80-20 train test split to generate up my model. With the trained Logistic Regression coefficient, I can then used it to predict whether an employee will stay/leave the company based on the latter profile.
-
----
-[HR Attrition Dashboard](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/excel/PQCapstone1.xlsx)
-[HR Attrition Dataset](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/excel/Capstone1-WA_Fn-HR-Employee-Attrition.csv)
-
----
-<img src="images/HR%20Attrition%20Dashboard.JPG?raw=true" width="600"/> 
-<img src="images/HR%20Attrition%20-%20Logistic%20Regression%20Modeling%20Using%20Excel%20Solver.JPG?raw=true" width="600"/>
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopFrontPage.JPG?raw=true" width="600"/> 
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopIntro.JPG?raw=true" width="600"/> 
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopRFM.JPG?raw=true" width="600"/> 
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopML.JPG?raw=true" width="600"/> 
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopMBA.JPG?raw=true" width="600"/> 
+<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopThankYou.JPG?raw=true" width="600"/> 
 
 ---
 ### Capstone Project 2 - Healthcare Insurance Fraud Detection Analysis
@@ -46,22 +41,31 @@ I've also included three Machine Learning Models (namely Logistic Regression, De
 <img src="images/FraudDetnModel.JPG?raw=true" width="600"/>
 
 ---
+### Capstone Project 1 - HR Attrition Analysis
+This is an individual project done over 5 days. I've downloaded the IBM Watson dataset from Kaggle, clean it up and did some transformation via Power Query. I've found that the dataset has quite a worrying 20% employee attrition. This will impact the company talent retention as most of the employee who left are the younger ones. On top of that, the company has already been giving the employees quite an attractive salary with a good salary hike. The root of the cause from the analysis points toward the Overtime factor. About half of the employees who work Overtime left the company. Therefore, the company has to take a closer look at this situation.
 
-# Capstone-Project-3---Online-Retail-Shop-Analysis
-This analysis looks into Customer Segmentation and Market Basket Analysis.
-
-This is an individual project done over 11 days. I've downloaded the Online Retail dataset from Kaggle. This time round I have used python to do up majority part of the analysis. This includes Recency, Frequency, Monetary (RFM) calculation, segmenting the customers based on the RF Grid and preparing the respective tables to be loaded into Power BI for visualisation. With the customers segment into 10 different groups, in accordance with the RF Grid, I've done up a rough marketing strategies (see images below). I must put a disclaimer that I'm not a marketing guy, so please pardon me if the strategy does not hold ground. But I'm sure the marketing people will see value with the customer segmentation work done here.
-
-As an alternative to RFM, I've also done up the customer segmentation using kmeans (unsupervised clustering algorithm). This is done up to draw a comparison between the 2 techniques (RFM being statistical modelling vs kmeans being machine learning modelling).
-
-To wrap up the entire analysis, I've done up a Market Basket Analysis using Apriori and Association Rule Mining. This is needed so that other than understanding our customers via Customer Segmentation, we also need to understand our items popularity, along with the customer buying pattern. The analysis will yield frequent itemsets and association rule which will be useful for cross selling and up selling of our items.
+I also did a Logistic Regression prediction model using Excel Solver. I've used a 80-20 train test split to generate up my model. With the trained Logistic Regression coefficient, I can then used it to predict whether an employee will stay/leave the company based on the latter profile.
 
 ---
-##### <<The file size related to this analysis is rather huge. Hence, I would not be able to make the analysis files available. However, should you be interested, you are still welcome to approach me.>>
+[HR Attrition Dashboard](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/excel/PQCapstone1.xlsx)
+[HR Attrition Dataset](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/excel/Capstone1-WA_Fn-HR-Employee-Attrition.csv)
+
 ---
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopFrontPage.JPG?raw=true" width="600"/> 
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopIntro.JPG?raw=true" width="600"/> 
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopRFM.JPG?raw=true" width="600"/> 
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopML.JPG?raw=true" width="600"/> 
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopMBA.JPG?raw=true" width="600"/> 
-<img src="https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/images/OnlineRetailShopThankYou.JPG?raw=true" width="600"/> 
+<img src="images/HR%20Attrition%20Dashboard.JPG?raw=true" width="600"/> 
+<img src="images/HR%20Attrition%20-%20Logistic%20Regression%20Modeling%20Using%20Excel%20Solver.JPG?raw=true" width="600"/>
+
+---
+### Basic of Data Science Presentation
+This is the presentation I've done up to demonstrate how Data Science is being employed in Autonomous Vehicle. Below are some of the slides. What was not included in the slides are my presentation on convolutional neural networks (CNN) and recurrent neural networks (RNN) employed in Autonomous Vehicle to aid in image feature extraction and adding the temporal factor to predict the possibilities of object collision.  
+
+
+[Autonomous Vehicle Case Study](https://github.com/KeithTeoSeeKoy/KeithTeoSeeKoy.github.io/blob/master/pdf/Autonomous%20Vehicle%20Case%20Study.pdf)
+
+---
+<img src="images/AutonomousVeh.JPG?raw=true" width="300"/> <img src="images/AutoVehContent.JPG?raw=true" width="307"/>
+<img src="images/AutoVehBackgnd.JPG?raw=true" width="300"/> <img src="images/AutoVehWorkflow.JPG?raw=true" width="300"/>
+<img src="images/AutoVehUseCases.JPG?raw=true" width="300"/>
+
+
+
+
