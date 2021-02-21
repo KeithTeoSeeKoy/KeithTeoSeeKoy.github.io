@@ -1,7 +1,3 @@
-## Portfolio
-
-Listed here are some of my work. If you have an interest in knowing more about my project work, feel free to drop me an email at keithteo.prop@gmail.com. 
-
 # Portfolio
 
 Listed here are some of my work. If you have an interest in knowing more about my project work, feel free to drop me an email at keithteo.prop@gmail.com.
